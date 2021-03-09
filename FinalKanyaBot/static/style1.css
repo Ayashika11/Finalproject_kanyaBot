@@ -1,7 +1,8 @@
 body {
-   background: url('../static/pppink.jpg') no-repeat center center fixed;
+   background: url('../static/pinkbg.jpeg') no-repeat center center fixed;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
+    background-size: cover;
 }
 
 .img{
@@ -50,7 +51,7 @@ body {
 
 .chat_header {
     height: 60px;
-    background: rgb(90, 23, 238);
+    background: rgb(219, 48, 130);
     border-radius: 10px 10px 0px 0px;
     padding: 5px;
     font-size: 20px;
@@ -836,7 +837,7 @@ video:focus {
 
 .tap-target {
     color: #fff;
-    background: #5a17ee;
+    background: #DB3082;
 }
 
 .pdf_attachment {
