@@ -121,8 +121,11 @@
 - how safe are sanitary pads?
 - pad
 - napkin
--sanitary pad 
--sanitary napkin
+- sanitary pad 
+- sanitary napkin
+- Why do we use sanitary napkins?
+- What is the use of sanitary napkin?
+- What is the use of pad during periods?
 
 ## intent:sanitary_pads_disposal
 - disposal of sanitary pads ?
@@ -187,6 +190,9 @@
 - i like to contact you
 - can you reply to me questions?
 - can you give the exact facts?
+- What will you do?
+- What can you do?
+- How can you help me?
 
 ## intent:police
 - i would like to contact the police officers
@@ -203,3 +209,52 @@
 - can gynecologist help me to sort this issue?
 - gynecologist list
 - gynecologist help
+
+## intent:durperiods
+- how long is periods?
+- duration of periods?
+- how many days will my periods last?
+- duration of periods?
+- duration of menses
+- average period length
+
+## intent:cyclegap
+- what is the gap between one periods and the other?
+- After how many days will I get my menstrual cycle?
+- When is my next periods?
+- Next menstrual cycle starts fromm?
+- periods cycle gap
+
+## intent:lateperiods
+- why is my periods late?
+- is there any problem if i miss my periods?
+- why is my periods delayed?
+- why didn't my menstrual cycle start?
+- What if i miss my periods date?
+- delay in periods
+- late periods
+
+## intent:nopain
+- is it normal to have no pain during periods?
+- I dont get cramps, is that ok?
+- No menstrual cramp
+- No pain during periods
+- Why don't I have menstrual cramps?
+
+## intent:lessbleeding
+- What are the reasons for less bleeding during periods?
+- why is my flow reduced?
+- why is my menses short?
+- why is my bleeding rate reduced?
+- why am i bleeding less now?
+- is it normal to bleed less during periods?
+- My periods is lighter my usual what is the cause?
+- What causes lighter bleeding?
+
+## intent:twiceperiods
+- is it normal if i bleed twice a month?
+- is it ok to have periods twice a month?
+- periods second time within a month
+- I got my periods for the second time
+- Is it a problem to get periods two times a month?
+
