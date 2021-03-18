@@ -24,6 +24,12 @@ intents:
   - help 
   - police 
   - gynecologist
+  - durperiods
+  - cyclegap
+  - lateperiods
+  - nopain
+  - lessbleeding 
+  - twiceperiods
 
 actions:
 - utter_greet
@@ -52,6 +58,12 @@ actions:
 - utter_help 
 - utter_police 
 - utter_gynecologist
+- utter_durperiods
+- utter_cyclegap
+- utter_lateperiods
+- utter_nopainperiods
+- utter_lessbleeding
+- utter_twiceperiods
 
 responses:
   utter_greet:
@@ -75,11 +87,11 @@ responses:
   - text: "I am a bot called Kanya which means girl." 
  
   utter_periods: 
-  - text: "No need to panic! Periods is a very common biological process in girls. A period happens because of changes in hormones in the body. Hormones give messages to the body. These hormones cause the lining of the uterus (or womb) to build up. This gets the uterus ready for an egg (from the mom) and sperm (from the dad) to attach and grow into a baby. If the woman does not get pregnant, the lining breaks down and bleeds. This same process happens every month. That is why most girls and women get their periods around once a month. Periods usually last about 5 days. But a period can be shorter or last longer according to your body metabolism."
+  - text: "Menstruation or period, is normal vaginal bleeding that occurs as part of a woman's monthly cycle. Every month, your body prepares for pregnancy. If no pregnancy occurs, the uterus,sheds its lining. The menstrual blood is partly blood and partly tissue from inside the uterus."
 
   utter_cramps: 
-  - text: "The medical name for period cramps is Dysmenorrhea. They happen due to a hormone-like substance, prostaglandins, which causes the uterus walls to contract and then shed its lining, resulting in your period. If prostaglandin levels are higher, more pain is often associated with the cramps. This varies from woman to woman, but cramps are likely to become less painful as you get older, or after childbirth." 
-  - text: "In most cases, period cramps are a sign of a healthy body reacting to the natural shedding of the uterus wall. However, if menstrual cramps are disrupting your life every cycle, if your symptoms get worse, or if you begin to get severe cramps after you’re 25 years old, you should speak to your doctor."  
+  - text: "They happen due to contraction of the uterus walls as they shed its lining, resulting in your period. This varies from woman to woman, but cramps are likely to become less painful as you get older, or after childbirth." 
+  - text: "In most cases, period cramps are a sign of a healthy body reacting to the natural shedding of the uterus wall. However, if menstrual cramps are disrupting your life every cycle, if your symptoms get worse, you should speak to your doctor."  
 
   utter_backpain: 
   - text: "Back pain! Yes,this is common during periods for some girls like us… Fine! Here is a youtube video: https://www.youtube.com/watch?v=Fq7F2bOQ0u0" 
@@ -88,17 +100,14 @@ responses:
   - text: "First don’t panic! Periods are common to every girl and it will last upto 5-7 days and it completely depends on one’s health to tolerate its pain. You cannot stop bleeding! It is a natural process that happens every month."
   
   utter_pills:
-  - text: "If you have mild menstrual cramps, take aspirin or another pain reliever, such as acetaminophen, ibuprofen, or naproxen.
-For best relief, Place a heating pad or hot water bottle on your lower back or tummy.
-If the pain still persist I recommend you to consult the Doctor. 
-However remember that such kind of pills have their side effects like spotting,nausea,weight gain,etc."
+  - text: "If you have mild menstrual cramps,Place a heating pad or hot water bottle on your lower back or tummy. If the pain still persist I recommend you to consult the Doctor."
 
   utter_precaution:
-  - text: "First relax yourself! Consuming pills for the stomach cramp can cause any side effects! Instead try to use some natural remedies.
+  - text: "First relax yourself!Try to use some natural remedies.
 Some of the remedies are :   -Drink Tea -Avoid Coffee -Alternatively consume hot and cold items."
   
   utter_pads:
-  - text: "A sanitary napkin is an absorbent item worn during menstruation, bleeding after giving birth, recovering from gynecologic surgery, experiencing a miscarriage or abortion, or in any other situation. Since the napkin are include antibacterial agents it is SAFE to use." 
+  - text: "A sanitary napkin means an absorbent pad that you wear on your panties during your period in order to absorb menstrual blood. Made out of cotton to avoid rashes and skin irritation, it comes in a number of varieties and sizes. Depending on your menstrual flow and preference, you need to choose a sanitary napkin" 
 
   utter_pad_dispose: 
   - text: "Hey!The sanitary napkins should be thrown away in the trash. Since it is non-biodegradable it should be put in RED colored trash! NOTE: The sanitary napkins should not be reused!" 
@@ -108,8 +117,8 @@ Some of the remedies are :   -Drink Tea -Avoid Coffee -Alternatively consume hot
 Reduced Risk of Urinary Tract Infections
 Reduced incidents of rashes Genitals
 Ensuring good reproductive health 
-MInimizing the risk of cervical cancer
-And that is the reason why Menstrual day is celebrated every year !" 
+Minimizing the risk of cervical cancer
+And that is the reason why Menstrual day is celebrated every year!" 
 
   utter_pad_duration: 
   - text: "It is recommended to change your pad at least one time every six to eight hours on moderate flow days. If your flow is heavier, you may need to change it more frequently. If you feel moisture, this may indicate you are not changing your pad enough, and you should increase the frequency of doing so."
@@ -118,7 +127,7 @@ And that is the reason why Menstrual day is celebrated every year !"
   - text: "Hahah!That's silly!You shouldn't use diapers in the place of a sanitary napkin!USE THINGS WISELY."
 
   utter_cups:
-  - text: "It's a flexible cup designed for use inside the vagina your period to collect menstrual blood.The cup actually collects the menstrual flow rather than absorbing it like tampons or pads do.You can use a cup all the way through your cycle , but you might need to change it more often on heavy flow days to guard against leaking. Remove and rinse your cup after 12 hours, or when leaking occurs."
+  - text: "It's a flexible cup designed for use inside the vagina your period to collect menstrual blood.The cup actually collects the menstrual flow rather than absorbing it like tampons or pads do. But you might need to change it more often on heavy flow days to guard against leaking. Remove and rinse your cup after 12 hours, or when leaking occurs."
 
   utter_cup_dur:
   - text: "Here is no specific duration or time interval!"
@@ -138,6 +147,23 @@ And that is the reason why Menstrual day is celebrated every year !"
   utter_gynecologist: 
   - text: "If you need further medical assistance/guidance, you can use the following link to connect with a gynecologist online: https://www.practo.com/consult/ask-a-gynecologist-online. Don't hesitate. You will still be anonymous when you contact them!"
 
+  utter_durperiods:
+  - text: "menstruation, typically lasts anywhere from two to eight days. It depends on the metabolism of your body"
+
+  utter_cyclegap:
+  - text: "The length of the menstrual cycle varies from woman to woman, but the average is to have periods every 28 days. Regular cycles that are longer or shorter than this, from 21 to 40 days, are normal."
+
+  utter_lateperiods:
+  - text: "There are several factors that can cause late or even missed periods, for example medication, stress, diet or exercise.In particular, young women, whose cycles are not yet so well established, often have hormonal fluctuations that can cause late or even missed periods.Consult your doctor if you miss your periods date."
+
+  utter_nopainperiods:
+  - text: "Not every woman or girl experiences period pain. For some, menstruation is entirely painless and problem-free. Be happy if you are one of them!"
+
+  utter_lessbleeding:
+  - text: "Lighter periods than usual do not usually cause concern. People often find their menstrual flow varies from month-to-month. The factors can cause periods to be lighter than usual: a lack of ovulation, being underweight, stress, or a medical condition. Please talk to your healthcare provider to get individual medical advice."
+
+  utter_twiceperiods:
+  - text: "Yes, it’s possible.Sometimes, you may even have two periods in a single month. If you usually have a regular cycle, a change in your cycle could indicate a medical condition. In case of any concerns, please talk to your doctor to get individual medical advice."
 
 session_config:
   session_expiration_time: 60
