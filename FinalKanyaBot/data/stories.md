@@ -114,3 +114,27 @@
 * gynecologist
   - utter_gynecologist 
   - utter_did_that_help   
+
+## durperiods
+* durperiods
+  - utter_durperiods
+
+## cyclegap
+* cyclegap
+  - utter_cyclegap
+
+## periodslate
+* lateperiods
+  - utter_lateperiods
+
+## nopain
+* nopain
+  - utter_nopainperiods
+
+## lightperiods
+* lessbleeding
+  - utter_lessbleeding
+
+## twiceperiods
+* twiceperiods
+  - utter_twiceperiods
